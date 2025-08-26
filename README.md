@@ -10,27 +10,29 @@ It includes: dataset handling, model training, a saved ML model, a Flask backend
 
 ## 📂 Project Structure
 
+<details>
+    <summary>Directory Tree</summary>
+
 ```
-
-chance\_of\_admission\_project/
-├─ data/
-│  └─ admission\_data.csv   # dataset (download from Kaggle or use provided sample)
-├─ models/
-│  └─ admission\_model.pkl  # trained model (created after running training)
-├─ backend/
-│  ├─ train.py             # training script
-│  ├─ app.py               # Flask API
-│  └─ requirements.txt     # backend dependencies
-├─ frontend/
-│  ├─ package.json         # React app config
-│  ├─ src/
-│  │  ├─ App.js            # React main component
-│  │  └─ index.js
-│  └─ public/
-│     └─ index.html
-└─ README.md
-
-````
+chance_of_admission_project/
+├── data/
+│   └── admission_data.csv      # Dataset (Kaggle or sample)
+├── models/
+│   └── admission_model.pkl     # Trained ML model
+├── backend/
+│   ├── train.py                # Model training script
+│   ├── app.py                  # Flask API server
+│   └── requirements.txt        # Backend dependencies
+├── frontend/
+│   ├── package.json            # React config
+│   ├── src/
+│   │   ├── App.js              # Main React component
+│   │   └── index.js
+│   └── public/
+│       └── index.html
+└── README.md
+```
+</details>
 
 ---
 
