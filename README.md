@@ -8,34 +8,6 @@ It includes: dataset handling, model training, a saved ML model, a Flask backend
 
 ---
 
-## 📂 Project Structure
-
-<details>
-    <summary>Directory Tree</summary>
-
-```
-chance_of_admission_project/
-├── data/
-│   └── admission_data.csv      # Dataset (Kaggle or sample)
-├── models/
-│   └── admission_model.pkl     # Trained ML model
-├── backend/
-│   ├── train.py                # Model training script
-│   ├── app.py                  # Flask API server
-│   └── requirements.txt        # Backend dependencies
-├── frontend/
-│   ├── package.json            # React config
-│   ├── src/
-│   │   ├── App.js              # Main React component
-│   │   └── index.js
-│   └── public/
-│       └── index.html
-└── README.md
-```
-</details>
-
----
-
 ## 📊 Dataset
 
 The project uses the **Graduate Admission dataset** (commonly available on Kaggle).  
