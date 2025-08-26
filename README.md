@@ -1,4 +1,3 @@
-```markdown
 # 🎓 Chance of Admission — Complete Internship Project
 
 This repository contains a complete, ready-to-run internship project based on the **"Chance of Admission"** problem (predicting graduate admission chances).  
@@ -43,7 +42,7 @@ Below is a screenshot of the working application:
 1. Navigate into backend:
    ```bash
    cd backend
-````
+```
 
 2. Create virtual environment & install requirements:
 
