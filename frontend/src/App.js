@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';   // Import CSS here
 
 function App() {
   const [form, setForm] = useState({
@@ -29,24 +30,32 @@ function App() {
   }
 
   return (
-    <div style={{maxWidth:600, margin:'40px auto', fontFamily:'Arial, sans-serif'}}>
-      <h2>Chance of Admission Predictor</h2>
-      <form onSubmit={handleSubmit}>
+    <div className="container">
+      <h2 className="title">Chance of Admission Predictor</h2>
+      <form onSubmit={handleSubmit} className="form">
         {Object.keys(form).map(k => (
-          <div key={k} style={{marginBottom:10}}>
-            <label>{k}: </label>
-            <input name={k} value={form[k]} onChange={handleChange} />
+          <div key={k} className="form-group">
+            <label className="label">{k}:</label>
+            <input 
+              name={k} 
+              value={form[k]} 
+              onChange={handleChange} 
+              className="input"
+            />
           </div>
         ))}
-        <button type="submit">Predict</button>
+        <button type="submit" className="btn">Predict</button>
       </form>
 
       {result && (
-        <div style={{marginTop:20}}>
+        <div className="result">
           {result.error ? (
-            <div style={{color:'red'}}>Error: {result.error}</div>
+            <div className="error">Error: {result.error}</div>
           ) : (
-            <div>Predicted Chance of Admission: <strong>{(result.chance_of_admit*100).toFixed(2)}%</strong></div>
+            <div className="success">
+              Predicted Chance of Admission: 
+              <strong> {(result.chance_of_admit*100).toFixed(2)}%</strong>
+            </div>
           )}
         </div>
       )}

@@ -28,6 +28,14 @@ If Kaggle access is not available, you can create a small synthetic CSV with the
 
 ---
 
+## 🖼️ Project Screenshot
+
+Below is a screenshot of the working application:
+
+![App Screenshot](assets/Screenshot.png)
+
+---
+
 ## ⚙️ Setup Instructions
 
 ### 🔹 Backend (Flask API)
