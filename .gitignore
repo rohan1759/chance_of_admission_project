@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+.env
+
+# Virtual environment
+backend/venv/
+
+# Data
+data/*.csv
+data/*.xlsx
+
+# Models
+models/*.pkl
+
+# Node.js
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+frontend/build/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
