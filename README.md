@@ -31,7 +31,7 @@ If Kaggle access is not available, you can create a small synthetic CSV with the
 
 Below is a screenshot of the working application:
 
-![App Screenshot](./screenshot/1.png)
+![App Screenshot](./screenshot/new.png)
 
 ---
 
